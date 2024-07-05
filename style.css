@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    background-color: #8b4db1;
+}
+section {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #4547db;
+}
+h1{
+  text-align: center;
+  color: #f9f9f9;
+}
+h2 {
+    margin-top: 0;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
+input[type="text"], input[type="email"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #a3cbc5; 
+    background-color: #ded7c8; 
+}
+input[type="submit"] {
+    background-color: #dcdb87;
+    color: #080808;
+    padding: 10px 170px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #080808;  
+    font-size: 15px; 
+}
+input[type="submit"]:hover {
+    background-color: #dcdb87;
+    border: 2px solid #080808;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+/* Estilo de alto contraste */
+.btn-field button{ 
+  background-color: #dcdb87;
+  color: #080808;
+  padding: 5px;
+  flex-basis: 48%;
+  height: 40px;
+  border-radius: 5px;
+  outline: 0;
+  text-align: center;
+  width: 40%;
+}
+.pais-control {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #a3cbc5; 
+    background-color: #ded7c8;  
+}
